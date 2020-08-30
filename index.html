@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoApp</title>
+</head>
+<body>
+    <main>
+        <h2>CatPhotoApp</h2>
+        <p>Click aqui para ver mas <a href="https://www.google.com/search?q=cat+photos&tbm=isch&ved=2ahUKEwjovLq23MHrAhXEELkGHcm8AN8Q2-cCegQIABAA&oq=cat+photos&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjoECAAQQzoFCAAQsQM6CAgAELEDEIMBOgcIABCxAxBDUK4vWKA7YIk9aABwAHgBgAHqAogB6BCSAQcwLjUuNC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=lPlKX-iiMMSh5OUPyfmC-A0&bih=667&biw=1517" target="_blank">fotos de gatos.</a></p>
+        <img src="https://bit.ly/fcc-relaxing-cat" alt="Lindo gatito de espalda">
+        <p>Cosas que aman los gatos:</p>
+        <ul>
+            <li>Leche</li>
+            <li>Dormir</li>
+            <li>Jugar</li>
+        </ul>
+        <p>Cosas que odian los gatos:</p>
+        <ol>
+            <li>Otros gatos</li>
+            <li>Ser molestados</li>
+            <li>Pepinos</li>
+        </ol>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <label for="interior">
+                <input id="interior" type="radio" name="interior-exterior"> Interior
+            </label>
+            <label for="exterior">
+                <input id="exterior" type="radio" name="interior-exterior"> Exterior
+            </label><br>
+            <label for="loving"><input type="checkbox" name="personality" value="loving">Amoroso
+            </label>
+            <label for="lazy"><input type="checkbox" name="personality" value="lazy">Perezoso
+            </label>
+            <label for="energetic"><input type="checkbox" name="personality" value="energetic">Energético
+            </label><br>
+            <input type="text" required placeholder="ULR de la foto del gato">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
