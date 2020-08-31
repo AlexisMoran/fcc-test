@@ -1,0 +1,28 @@
+.yellow-lobster40 {
+ color: yellow;
+ font-size: 40px;
+ font-family: Lobster;
+}
+body {
+ background-color: #23272A;
+}
+p {
+ color: white;
+ font-size: 20px;
+}
+li {
+ color: rgb(89, 89, 255);
+ font-size: 17px;
+}
+.grey-border {
+ border-color: #99AAB5;
+ border-style: solid;
+ border-width: 5px;
+ border-radius: 10px;
+ width: 281px;
+ font-family: Lato;
+}
+form {
+ color: tomato;
+ font-size: 18px;
+}
