@@ -9,23 +9,29 @@
 </head>
 <body>
     <main>
-        <h2 class="yellow-lobster40">CatPhotoApp</h2>
-        <p>Click aqui para ver mas <a href="https://www.google.com/search?q=cat+photos&tbm=isch&ved=2ahUKEwjovLq23MHrAhXEELkGHcm8AN8Q2-cCegQIABAA&oq=cat+photos&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjoECAAQQzoFCAAQsQM6CAgAELEDEIMBOgcIABCxAxBDUK4vWKA7YIk9aABwAHgBgAHqAogB6BCSAQcwLjUuNC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=lPlKX-iiMMSh5OUPyfmC-A0&bih=667&biw=1517" target="_blank">fotos de gatos.</a></p>
+        <div id="title">
+        <h2>CatPhotoApp</h2>
+        <hr>
+    </div>
+        <div id="imagen-more">  <!--imagen-->
+        <p id="more">Click aqui para ver mas <a class="white" href="https://www.google.com/search?q=cat+photos&tbm=isch&ved=2ahUKEwjovLq23MHrAhXEELkGHcm8AN8Q2-cCegQIABAA&oq=cat+photos&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjIECAAQHjoECAAQQzoFCAAQsQM6CAgAELEDEIMBOgcIABCxAxBDUK4vWKA7YIk9aABwAHgBgAHqAogB6BCSAQcwLjUuNC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=lPlKX-iiMMSh5OUPyfmC-A0&bih=667&biw=1517" target="_blank">fotos de gatos.</a></p>
         <img src="https://bit.ly/fcc-relaxing-cat" alt="Lindo gatito de espalda">
-        <div class="grey-border">
-        <p>Cosas que aman los gatos:</p>
+        </div><!--imagen-->
+        <div id="grey-border"> <!--grey-border-->
+        <p class="white-bold">Cosas que aman los gatos:</p>
         <ul>
             <li>Leche</li>
             <li>Dormir</li>
             <li>Jugar</li>
         </ul>
-        <p>Cosas que odian los gatos:</p>
+        <p class="white-bold">Cosas que odian los gatos:</p>
         <ol>
             <li>Otros gatos</li>
             <li>Ser molestados</li>
             <li>Agua</li>
         </ol>
-        </div>
+        </div> <!--grey-border-->
+        <div id="form"> <!--formulario-->
         <form action="https://freecatphotoapp.com/submit-cat-photo">
             <label for="interior">
                 <input id="interior" type="radio" name="interior-exterior"> Interior
@@ -42,6 +48,7 @@
             <input type="text" required placeholder="ULR de la foto del gato">
             <button type="submit">Enviar</button>
         </form>
+        </div> <!--formulario-->
     </main>
 </body>
 </html>

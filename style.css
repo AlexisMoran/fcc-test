@@ -1,28 +1,52 @@
-.yellow-lobster40 {
- color: yellow;
+#title {
+ color: rgb(255, 255, 65);
  font-size: 40px;
  font-family: Lobster;
+ text-align: center;
+ position: relative;
+ left: 325px;
+}
+#more, .white {
+color: white;
+font-style: italic;
+font-size: 17px;
+text-decoration: underline;
+opacity: 0.8;
+}
+#imagen-more {
+ position: relative;
+left: 300px;
 }
 body {
  background-color: #23272A;
+width: 870px;
 }
-p {
+.white-bold {
  color: white;
  font-size: 20px;
+ font-weight: bold;
 }
 li {
- color: rgb(89, 89, 255);
+ color: white;
  font-size: 17px;
 }
-.grey-border {
- border-color: #99AAB5;
+#grey-border {
+ background: #3d454b;
+ border-color: white;
  border-style: solid;
- border-width: 5px;
+ border-width: 3px;
  border-radius: 10px;
  width: 281px;
  font-family: Lato;
+ padding: 10px;
+ position: relative;
+ left: 900px;
+ bottom: 300px;
 }
-form {
+#form {
  color: tomato;
  font-size: 18px;
+ position: relative;
+ left: 620px;
+ bottom: 270px;
 }
